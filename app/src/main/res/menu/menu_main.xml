@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chatapp.MainActivity">
+    <item
+        android:id="@+id/action_logout"
+        android:title="Sign Out"
+        android:iconTint="@color/black"/>
+
+    <item android:id="@+id/action_create_group"
+        android:title="Create group"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_group_add_24"/>
+
+<!--    <item android:id="@+id/action_add_participant"-->
+<!--        android:title="Add group participant"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/ic_baseline_add_circle_24"/>-->
+</menu>
